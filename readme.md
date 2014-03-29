@@ -37,12 +37,14 @@ This course covers 3 different areas at some extend. Mainly we will talk about O
 	+ Actions and text of the Return Key
 	+ Using UISwitch
 + iOS Elements
-	+ NSUserDefaults
+	+ Import internal framework (Security)
+	+ Use Keychains to store password and username ([KeyChainItemWrapper](http://stackoverflow.com/questions/6972092/ios-how-to-store-username-password-within-an-app))
+	+ NSUserDefaults to store preferences
 	+ Import and use external frameworks ([ProgressHUD](https://github.com/relatedcode/ProgressHUD))
+	+ NSGestureRecognizers to dismiss the Keyboard
 
 
-
-### Prerequisites
+### Before we can start
 
 We will need a couple of things before we can start actually coding. 
 
@@ -56,6 +58,31 @@ We will need a couple of things before we can start actually coding.
 - Github/Bitbucket account
 
 ### Let's start with the pre-requisites
+
+#### Basic commands for `Terminal`
+
+Before you read this section, you should now that **this is optional*, you can perfectly go to the finder and do this process on any *IDE* you like. However, if you are getting serious about software developmente, you will realize `bash` is one of the best tools you will find.
+
+The first step here would be to open the terminal. In cas you are a more advanced user I recommend you go to the [iterm](http://www.iterm2.com/#downloads) site and download the app. Once you have your terminal opened, you can a couple of commands. The first one is `pwd`; you should see as a result, where you are in your File System. Another useful command is `ls`, which basically lists all the files on the current folder (use `pwd` to understand where you are positioned). Most of the commands accept extra options, to see what are the available options you can simple go and type `man ls`. For example, I want to list all the files, check the permissions for each one of the files, realize if there are folders or files and also see the hidden files. Based on the command `man ls` I will type `ls -alF`, and see a different result. 
+
+To create a folder the command is `mkdir folderName` (you put any name you like instead of folderName). For changing to a different folder you simple put `cd folderName`. If you want to create a file, there are different ways to do it, the simpler one would be `touch fileName.extension`. Another way to do it is `nano fileName.extension`, with this instruction you will be able to enter the `fileName` and put some content on it. You surely can use different commands like `vi fileName.extension`, use whatever is more comfortable for you. Finally, in case you have installed **Sublime Text Editor**, you can use the command `sublime fileName.extension` or `subl fileName.extension` depending of your case. You can use different text Editors such as [**Atom.io**](http://atom.io), [**Text Wrangler**](http://www.barebones.com/products/textwrangler/download.html), or the pre installed **TextEdit** on your Mac.
+
+Let's try to solve the next scenario: I would like to go to my `Documents` folder, create a folder named `Udemy`, create a file named .gitignore and put the content on the section *Git Ignore* on the next sub section. After doing that, you will like to check that the file exists and contains the information. Finally you will remove the file `Udemy` from your system.
+
+##### Solution
+
++ `cd ~/Documents/`: it goes to your user's Document folder
++ `mkdir Udemy`: creates the folder `Udemy`
++ `nano .gitignore`: creates and enter the name 
++ `copy and paste`: copy the content of the next sub section and paste it on the .gitignore file
++ Press **ctrl + o** to save the file
++ Press **ctrl + x** to exit the *edit mode*
++ `ls -alF`: to show hidden files
++ `cat .gitignore`: to show the content of the file
++ `cd ..`: to go to the upper hierarchy on your File System
++ `rm -rf Udemy`: remove recursively the files of your `Udemy` folder 
+
+**Tip:** you can tab to *autocomplete* the file name
 
 #### Install Git
 

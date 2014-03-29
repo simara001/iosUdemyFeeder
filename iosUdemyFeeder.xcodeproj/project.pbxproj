@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7FD7ED5B18E77ECD00ABD8FA /* MRBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD7ED4318E77ECD00ABD8FA /* MRBlurView.m */; };
+		7FD7ED5C18E77ECD00ABD8FA /* UIImage+MRImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD7ED4518E77ECD00ABD8FA /* UIImage+MRImageEffects.m */; };
+		7FD7ED5D18E77ECD00ABD8FA /* MRActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD7ED4818E77ECD00ABD8FA /* MRActivityIndicatorView.m */; };
+		7FD7ED5E18E77ECD00ABD8FA /* MRCircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD7ED4A18E77ECD00ABD8FA /* MRCircularProgressView.m */; };
+		7FD7ED5F18E77ECD00ABD8FA /* MRIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD7ED4C18E77ECD00ABD8FA /* MRIconView.m */; };
+		7FD7ED6018E77ECD00ABD8FA /* MRNavigationBarProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD7ED4E18E77ECD00ABD8FA /* MRNavigationBarProgressView.m */; };
+		7FD7ED6118E77ECD00ABD8FA /* MRProgressOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD7ED5018E77ECD00ABD8FA /* MRProgressOverlayView.m */; };
+		7FD7ED6218E77ECD00ABD8FA /* MRStopButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD7ED5318E77ECD00ABD8FA /* MRStopButton.m */; };
+		7FD7ED6318E77ECD00ABD8FA /* MRMessageInterceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD7ED5718E77ECD00ABD8FA /* MRMessageInterceptor.m */; };
+		7FD7ED6418E77ECD00ABD8FA /* MRWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD7ED5A18E77ECD00ABD8FA /* MRWeakProxy.m */; };
+		7FD7ED6918E786B700ABD8FA /* NSObject+PerformDelay.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD7ED6818E786B700ABD8FA /* NSObject+PerformDelay.m */; };
 		7FDB572118E6480E00C8ECD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FDB572018E6480E00C8ECD8 /* Foundation.framework */; };
 		7FDB572318E6480E00C8ECD8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FDB572218E6480E00C8ECD8 /* CoreGraphics.framework */; };
 		7FDB572518E6480E00C8ECD8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FDB572418E6480E00C8ECD8 /* UIKit.framework */; };
@@ -34,6 +45,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7FD7ED4218E77ECD00ABD8FA /* MRBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRBlurView.h; sourceTree = "<group>"; };
+		7FD7ED4318E77ECD00ABD8FA /* MRBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRBlurView.m; sourceTree = "<group>"; };
+		7FD7ED4418E77ECD00ABD8FA /* UIImage+MRImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MRImageEffects.h"; sourceTree = "<group>"; };
+		7FD7ED4518E77ECD00ABD8FA /* UIImage+MRImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MRImageEffects.m"; sourceTree = "<group>"; };
+		7FD7ED4718E77ECD00ABD8FA /* MRActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRActivityIndicatorView.h; sourceTree = "<group>"; };
+		7FD7ED4818E77ECD00ABD8FA /* MRActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRActivityIndicatorView.m; sourceTree = "<group>"; };
+		7FD7ED4918E77ECD00ABD8FA /* MRCircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRCircularProgressView.h; sourceTree = "<group>"; };
+		7FD7ED4A18E77ECD00ABD8FA /* MRCircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRCircularProgressView.m; sourceTree = "<group>"; };
+		7FD7ED4B18E77ECD00ABD8FA /* MRIconView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRIconView.h; sourceTree = "<group>"; };
+		7FD7ED4C18E77ECD00ABD8FA /* MRIconView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRIconView.m; sourceTree = "<group>"; };
+		7FD7ED4D18E77ECD00ABD8FA /* MRNavigationBarProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRNavigationBarProgressView.h; sourceTree = "<group>"; };
+		7FD7ED4E18E77ECD00ABD8FA /* MRNavigationBarProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRNavigationBarProgressView.m; sourceTree = "<group>"; };
+		7FD7ED4F18E77ECD00ABD8FA /* MRProgressOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRProgressOverlayView.h; sourceTree = "<group>"; };
+		7FD7ED5018E77ECD00ABD8FA /* MRProgressOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRProgressOverlayView.m; sourceTree = "<group>"; };
+		7FD7ED5118E77ECD00ABD8FA /* MRStopableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRStopableView.h; sourceTree = "<group>"; };
+		7FD7ED5218E77ECD00ABD8FA /* MRStopButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRStopButton.h; sourceTree = "<group>"; };
+		7FD7ED5318E77ECD00ABD8FA /* MRStopButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRStopButton.m; sourceTree = "<group>"; };
+		7FD7ED5418E77ECD00ABD8FA /* MRProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRProgress.h; sourceTree = "<group>"; };
+		7FD7ED5618E77ECD00ABD8FA /* MRMessageInterceptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRMessageInterceptor.h; sourceTree = "<group>"; };
+		7FD7ED5718E77ECD00ABD8FA /* MRMessageInterceptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRMessageInterceptor.m; sourceTree = "<group>"; };
+		7FD7ED5818E77ECD00ABD8FA /* MRProgressHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRProgressHelper.h; sourceTree = "<group>"; };
+		7FD7ED5918E77ECD00ABD8FA /* MRWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRWeakProxy.h; sourceTree = "<group>"; };
+		7FD7ED5A18E77ECD00ABD8FA /* MRWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRWeakProxy.m; sourceTree = "<group>"; };
+		7FD7ED6718E786B700ABD8FA /* NSObject+PerformDelay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+PerformDelay.h"; sourceTree = "<group>"; };
+		7FD7ED6818E786B700ABD8FA /* NSObject+PerformDelay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PerformDelay.m"; sourceTree = "<group>"; };
 		7FDB571D18E6480E00C8ECD8 /* iosUdemyFeeder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosUdemyFeeder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FDB572018E6480E00C8ECD8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7FDB572218E6480E00C8ECD8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -79,6 +115,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7FD7ED4018E77ECD00ABD8FA /* Progress */ = {
+			isa = PBXGroup;
+			children = (
+				7FD7ED4118E77ECD00ABD8FA /* Blur */,
+				7FD7ED4618E77ECD00ABD8FA /* Components */,
+				7FD7ED5418E77ECD00ABD8FA /* MRProgress.h */,
+				7FD7ED5518E77ECD00ABD8FA /* Utils */,
+			);
+			name = Progress;
+			path = src;
+			sourceTree = "<group>";
+		};
+		7FD7ED4118E77ECD00ABD8FA /* Blur */ = {
+			isa = PBXGroup;
+			children = (
+				7FD7ED4218E77ECD00ABD8FA /* MRBlurView.h */,
+				7FD7ED4318E77ECD00ABD8FA /* MRBlurView.m */,
+				7FD7ED4418E77ECD00ABD8FA /* UIImage+MRImageEffects.h */,
+				7FD7ED4518E77ECD00ABD8FA /* UIImage+MRImageEffects.m */,
+			);
+			path = Blur;
+			sourceTree = "<group>";
+		};
+		7FD7ED4618E77ECD00ABD8FA /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				7FD7ED4718E77ECD00ABD8FA /* MRActivityIndicatorView.h */,
+				7FD7ED4818E77ECD00ABD8FA /* MRActivityIndicatorView.m */,
+				7FD7ED4918E77ECD00ABD8FA /* MRCircularProgressView.h */,
+				7FD7ED4A18E77ECD00ABD8FA /* MRCircularProgressView.m */,
+				7FD7ED4B18E77ECD00ABD8FA /* MRIconView.h */,
+				7FD7ED4C18E77ECD00ABD8FA /* MRIconView.m */,
+				7FD7ED4D18E77ECD00ABD8FA /* MRNavigationBarProgressView.h */,
+				7FD7ED4E18E77ECD00ABD8FA /* MRNavigationBarProgressView.m */,
+				7FD7ED4F18E77ECD00ABD8FA /* MRProgressOverlayView.h */,
+				7FD7ED5018E77ECD00ABD8FA /* MRProgressOverlayView.m */,
+				7FD7ED5118E77ECD00ABD8FA /* MRStopableView.h */,
+				7FD7ED5218E77ECD00ABD8FA /* MRStopButton.h */,
+				7FD7ED5318E77ECD00ABD8FA /* MRStopButton.m */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		7FD7ED5518E77ECD00ABD8FA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7FD7ED5618E77ECD00ABD8FA /* MRMessageInterceptor.h */,
+				7FD7ED5718E77ECD00ABD8FA /* MRMessageInterceptor.m */,
+				7FD7ED5818E77ECD00ABD8FA /* MRProgressHelper.h */,
+				7FD7ED5918E77ECD00ABD8FA /* MRWeakProxy.h */,
+				7FD7ED5A18E77ECD00ABD8FA /* MRWeakProxy.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		7FDB571418E6480E00C8ECD8 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +192,7 @@
 		7FDB571F18E6480E00C8ECD8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7FD7ED4018E77ECD00ABD8FA /* Progress */,
 				7FDB572018E6480E00C8ECD8 /* Foundation.framework */,
 				7FDB572218E6480E00C8ECD8 /* CoreGraphics.framework */,
 				7FDB572418E6480E00C8ECD8 /* UIKit.framework */,
@@ -117,6 +209,8 @@
 				7FDB573218E6480E00C8ECD8 /* Main.storyboard */,
 				7FDB573518E6480E00C8ECD8 /* MARViewController.h */,
 				7FDB573618E6480E00C8ECD8 /* MARViewController.m */,
+				7FD7ED6718E786B700ABD8FA /* NSObject+PerformDelay.h */,
+				7FD7ED6818E786B700ABD8FA /* NSObject+PerformDelay.m */,
 				7FDB573818E6480E00C8ECD8 /* Images.xcassets */,
 				7FDB572718E6480E00C8ECD8 /* Supporting Files */,
 			);
@@ -253,9 +347,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FD7ED6118E77ECD00ABD8FA /* MRProgressOverlayView.m in Sources */,
+				7FD7ED6318E77ECD00ABD8FA /* MRMessageInterceptor.m in Sources */,
 				7FDB572D18E6480E00C8ECD8 /* main.m in Sources */,
+				7FD7ED5D18E77ECD00ABD8FA /* MRActivityIndicatorView.m in Sources */,
 				7FDB573118E6480E00C8ECD8 /* MARAppDelegate.m in Sources */,
+				7FD7ED6918E786B700ABD8FA /* NSObject+PerformDelay.m in Sources */,
 				7FDB573718E6480E00C8ECD8 /* MARViewController.m in Sources */,
+				7FD7ED6218E77ECD00ABD8FA /* MRStopButton.m in Sources */,
+				7FD7ED5B18E77ECD00ABD8FA /* MRBlurView.m in Sources */,
+				7FD7ED5C18E77ECD00ABD8FA /* UIImage+MRImageEffects.m in Sources */,
+				7FD7ED5F18E77ECD00ABD8FA /* MRIconView.m in Sources */,
+				7FD7ED6418E77ECD00ABD8FA /* MRWeakProxy.m in Sources */,
+				7FD7ED6018E77ECD00ABD8FA /* MRNavigationBarProgressView.m in Sources */,
+				7FD7ED5E18E77ECD00ABD8FA /* MRCircularProgressView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,6 +571,7 @@
 				7FDB575118E6480E00C8ECD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7FDB575218E6480E00C8ECD8 /* Build configuration list for PBXNativeTarget "iosUdemyFeederTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +580,7 @@
 				7FDB575418E6480E00C8ECD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

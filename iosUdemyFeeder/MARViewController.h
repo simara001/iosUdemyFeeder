@@ -10,4 +10,12 @@
 
 @interface MARViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextField *textUsername;
+@property (weak, nonatomic) IBOutlet UITextField *textPassword;
+@property (weak, nonatomic) IBOutlet UILabel *textSwitch;
+@property (weak, nonatomic) IBOutlet UISwitch *switchPassword;
+
+
+- (IBAction)login:(UIButton *)sender;
+
 @end

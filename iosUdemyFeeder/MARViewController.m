@@ -7,6 +7,9 @@
 //
 
 #import "MARViewController.h"
+#import "MRProgress.h"
+#import "NSObject+PerformDelay.h"
+
 
 @interface MARViewController ()
 
@@ -17,13 +20,15 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
+    [MRProgressOverlayView showOverlayAddedTo:self.view title:@"Success" mode:MRProgressOverlayViewModeCheckmark animated:YES];
+    [self.view performBlock:^(void){[MRProgressOverlayView dismissAllOverlaysForView:self.view animated:YES];} afterDelay:2];
+
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+#pragma mark - Private Methods
+
+- (IBAction)login:(UIButton *)sender {
 }
 
 @end
