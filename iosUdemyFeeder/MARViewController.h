@@ -17,6 +17,6 @@
 @property (weak, nonatomic) IBOutlet UISwitch *switchPassword;
 
 
-- (IBAction)login:(UIButton *)sender;
+- (IBAction)login:(id)sender;
 
 @end
