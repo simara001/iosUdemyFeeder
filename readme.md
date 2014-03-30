@@ -109,6 +109,50 @@ On you **Navigation** panel, select the file Main.storyboard under your project 
 
 ![Image](readmeImages/UtilitiesBar.png)
 
+#### Putting the Progress HUD into working
+
+Here it is the code:
+
+```objective-c
+[MRProgressOverlayView showOverlayAddedTo:self.view title:@"Success" mode:MRProgressOverlayViewModeCheckmark animated:YES];
+[self.view performBlock:^(void){[MRProgressOverlayView dismissAllOverlaysForView:self.view animated:YES];} afterDelay:2];
+```
+
+#### Blocks
+
+Here it is the perform block:
+
+```objective-c
+// Category
+
+/* * * * * * * * * * * * * * * * *
+ * Header File
+ * * * * * * * * * * * * * * * * */
+
+- (void)performBlock:(void (^)(void))block afterDelay:(NSTimeInterval)delay;
+
+/* * * * * * * * * * * * * * * * *
+ * Implementation File
+ * * * * * * * * * * * * * * * * */
+
+- (void)performBlock:(void (^)(void))block afterDelay:(NSTimeInterval)delay {
+    int64_t delta = (int64_t)(1.0e9 * delay);
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, delta), dispatch_get_main_queue(), block);
+}
+```
+
+#### JNKeychainWrapper
+
+A lot of alternatives out there, I selected this one. You can try any one you like. You can visit this [page](https://github.com/jeremangnr/JNKeychain) to get all the files needed for this.
+
+```objective-c
+    [JNKeychain saveValue:self.textPassword.text forKey:@"password"];
+    [JNKeychain saveValue:self.textUsername.text forKey:@"username"];
+    NSLog(@"username %@, and password: %@", [JNKeychain loadValueForKey:@"username"], [JNKeychain loadValueForKey:@"password"]);
+```
+
+
+
 <!-- #### Making your first commit to github
 
 You will need to create an account to [bitbucket](http://bitbucket.org) or [github](http://www.github.com); for this course we will use **Github**, basing my decision in the fact that all the code should be available for the students taking the course. When you create your account on Github, the next step is to **Create a new repository**; you can see the image:

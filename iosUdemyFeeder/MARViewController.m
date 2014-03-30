@@ -21,18 +21,27 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
-    [MRProgressOverlayView showOverlayAddedTo:self.view title:@"Success" mode:MRProgressOverlayViewModeCheckmark animated:YES];
-    [self.view performBlock:^(void){[MRProgressOverlayView dismissAllOverlaysForView:self.view animated:YES];} afterDelay:2];
 
 }
 
 #pragma mark - Private Methods
 
 - (IBAction)login:(UIButton *)sender {
-    [JNKeychain saveValue:self.textPassword.text forKey:@"password"];
-    [JNKeychain saveValue:self.textUsername.text forKey:@"username"];
-    NSLog(@"username %@, and password: %@", [JNKeychain loadValueForKey:@"username"], [JNKeychain loadValueForKey:@"password"]);
+
 }
+
+#pragma mark - UITextField Delegate Methods' Implementation
+
+-(BOOL)textFieldShouldReturn:(UITextField *)textField {
+    
+    if (textField == self.textUsername) {
+        NSLog(@"You are in textUsername");
+    } else if (textField == self.textPassword) {
+        NSLog(@"Your are in password");
+    }
+    
+    return YES;
+}
+
 
 @end
