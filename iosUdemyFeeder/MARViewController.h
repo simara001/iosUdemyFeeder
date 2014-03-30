@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Security/Security.h>
 
-@interface MARViewController : UIViewController
+@interface MARViewController : UIViewController <UITextFieldDelegate>
 
 @property (weak, nonatomic) IBOutlet UITextField *textUsername;
 @property (weak, nonatomic) IBOutlet UITextField *textPassword;

@@ -18,6 +18,8 @@
 		7FD7ED6318E77ECD00ABD8FA /* MRMessageInterceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD7ED5718E77ECD00ABD8FA /* MRMessageInterceptor.m */; };
 		7FD7ED6418E77ECD00ABD8FA /* MRWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD7ED5A18E77ECD00ABD8FA /* MRWeakProxy.m */; };
 		7FD7ED6918E786B700ABD8FA /* NSObject+PerformDelay.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD7ED6818E786B700ABD8FA /* NSObject+PerformDelay.m */; };
+		7FD7ED6B18E7AC9400ABD8FA /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FD7ED6A18E7AC9400ABD8FA /* Security.framework */; };
+		7FD7ED7418E7CCE400ABD8FA /* JNKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD7ED7318E7CCE400ABD8FA /* JNKeychain.m */; };
 		7FDB572118E6480E00C8ECD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FDB572018E6480E00C8ECD8 /* Foundation.framework */; };
 		7FDB572318E6480E00C8ECD8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FDB572218E6480E00C8ECD8 /* CoreGraphics.framework */; };
 		7FDB572518E6480E00C8ECD8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FDB572418E6480E00C8ECD8 /* UIKit.framework */; };
@@ -70,6 +72,9 @@
 		7FD7ED5A18E77ECD00ABD8FA /* MRWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRWeakProxy.m; sourceTree = "<group>"; };
 		7FD7ED6718E786B700ABD8FA /* NSObject+PerformDelay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+PerformDelay.h"; sourceTree = "<group>"; };
 		7FD7ED6818E786B700ABD8FA /* NSObject+PerformDelay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PerformDelay.m"; sourceTree = "<group>"; };
+		7FD7ED6A18E7AC9400ABD8FA /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		7FD7ED7218E7CCE400ABD8FA /* JNKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNKeychain.h; sourceTree = "<group>"; };
+		7FD7ED7318E7CCE400ABD8FA /* JNKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNKeychain.m; sourceTree = "<group>"; };
 		7FDB571D18E6480E00C8ECD8 /* iosUdemyFeeder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosUdemyFeeder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FDB572018E6480E00C8ECD8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7FDB572218E6480E00C8ECD8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -96,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FD7ED6B18E7AC9400ABD8FA /* Security.framework in Frameworks */,
 				7FDB572318E6480E00C8ECD8 /* CoreGraphics.framework in Frameworks */,
 				7FDB572518E6480E00C8ECD8 /* UIKit.framework in Frameworks */,
 				7FDB572118E6480E00C8ECD8 /* Foundation.framework in Frameworks */,
@@ -192,6 +198,7 @@
 		7FDB571F18E6480E00C8ECD8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7FD7ED6A18E7AC9400ABD8FA /* Security.framework */,
 				7FD7ED4018E77ECD00ABD8FA /* Progress */,
 				7FDB572018E6480E00C8ECD8 /* Foundation.framework */,
 				7FDB572218E6480E00C8ECD8 /* CoreGraphics.framework */,
@@ -204,6 +211,8 @@
 		7FDB572618E6480E00C8ECD8 /* iosUdemyFeeder */ = {
 			isa = PBXGroup;
 			children = (
+				7FD7ED7218E7CCE400ABD8FA /* JNKeychain.h */,
+				7FD7ED7318E7CCE400ABD8FA /* JNKeychain.m */,
 				7FDB572F18E6480E00C8ECD8 /* MARAppDelegate.h */,
 				7FDB573018E6480E00C8ECD8 /* MARAppDelegate.m */,
 				7FDB573218E6480E00C8ECD8 /* Main.storyboard */,
@@ -347,6 +356,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FD7ED7418E7CCE400ABD8FA /* JNKeychain.m in Sources */,
 				7FD7ED6118E77ECD00ABD8FA /* MRProgressOverlayView.m in Sources */,
 				7FD7ED6318E77ECD00ABD8FA /* MRMessageInterceptor.m in Sources */,
 				7FDB572D18E6480E00C8ECD8 /* main.m in Sources */,

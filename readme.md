@@ -37,7 +37,7 @@ This course covers 3 different areas at some extend. Mainly we will talk about O
 	+ Using UISwitch
 + iOS Elements
 	+ Import internal framework (Security)
-	+ Use Keychains to store password and username ([KeyChainItemWrapper](http://stackoverflow.com/questions/6972092/ios-how-to-store-username-password-within-an-app))
+	+ Use Keychains to store password and username ([KeyChainItemWrapper](https://github.com/jeremangnr/JNKeychain))
 	+ NSUserDefaults to store preferences
 	+ Import and use external frameworks ([ProgressHUD](https://github.com/relatedcode/ProgressHUD))
 	+ NSGestureRecognizers to dismiss the Keyboard
