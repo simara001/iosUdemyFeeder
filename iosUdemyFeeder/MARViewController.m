@@ -11,7 +11,7 @@
 #import "NSObject+PerformDelay.h"
 
 
-@interface MARViewController ()
+@interface MARViewController () <UITextFieldDelegate>
 
 @end
 

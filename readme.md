@@ -14,7 +14,6 @@ This course covers 3 different areas at some extend. Mainly we will talk about O
 	+ Clone the Repository of this course on your computer
 + Setting up your project
 	+ Create a project using XCode
-	+ Making the first commit to Github
 	+ Analyzing the files on the projects
 	+ Analyzing the tools of XCode
 	+ Using Story Boards
@@ -88,31 +87,46 @@ Let's try to solve the next scenario: I would like to go to my `Documents` folde
 
 There are couple of ways to download the files. In fact, one of the popular ways to install a package in the developer community (that uses Mac OS) is to use brew (Homebrew). In case you want to experiment a little bit follow this [link](http://brew.sh/). The second approach (and the one I recommend for beginners) is basically download the files and install it as a regular package, just follow this [link](http://git-scm.com/download/mac) to install it. After the installation, you need to check everything worked well. Go to your `Applications`, open `Terminal` and write `which git`; you should see something like `/usr/bin/git`.
 
-#### Git Ignore
-
-The Git Ignore is a reference to a file called `.gitignore` that basically commands git to not update the files contained in this file. If you notice the name of the file (`.gitignore`) starts with a dot, which is not an error, is an indication that the file is a hidden file. In case you want to see hidden files, you should use special commands on your terminal, such as `ls -alF`. In case you are not familiar with the terminal commands, we will make a quick tutorial so you can ramp up. You can file the information of the file here:
-
-```bash
-# Xcode
-build/*
-*.pbxuser
-!default.pbxuser
-*.mode1v3
-!default.mode1v3
-*.mode2v3
-!default.mode2v3
-*.perspectivev3
-!default.perspectivev3
-*.xcworkspace
-!default.xcworkspace
-xcuserdata
-profile
-*.moved-aside
-DerivedData
-```
 #### Installing XCode
 
 Go to your `Applications` open `App Store`, search for XCode and download it. It might take a while, also you should have at least 2.5 GB of free space on your hard disk.
 
+### Setting up your project
 
+#### How to create a project
+
+Right now we will start using the tools to put some code into our project. The first step would be to enter your `Applications` and open `XCode`. The first thing you will select is what kind of project you want to create. For this part you will select a *Single View Application*, after that you will simply need to fill the *Product Name*, the *Class Prefix*, and select the device you want (*iPhone* for this course). 
+
+#### Analyzing the files on the projects
+
+An important part of XCode is the top bar. It contains information that we will use very often and you should get familiar with it. First of all, you can have 3 vertical segments on your screen. The right vertical screen is called **Navigator**, basically because it contains all your files of your project. Please be sure you have selected the folder icon and the triangle is pointing down, so you can see the structure of your project. The central vertical space is for different things and can have differente arrangements; the way in which is mainly used is to visualize files/story board. Finally, the right vertical element called **Utilities** is regularly used to get extra information of the elements selected on the main panel (central vertical element). You can hide or show each of these vertical panels simply by clicking the icons on the top right bar as shown on the image.
+
+![Image](readmeImages/TopBar.png)
+
+#### Analyzing the tools of XCode
+
+On you **Navigation** panel, select the file Main.storyboard under your project name's folder. You should see an empty iPhone screen, please select it. Open the **Utilities** window and select the third icon on the bottom part (a cube). You can scroll down and see all the elements that you can simply drag and drop.
+
+![Image](readmeImages/UtilitiesBar.png)
+
+<!-- #### Making your first commit to github
+
+You will need to create an account to [bitbucket](http://bitbucket.org) or [github](http://www.github.com); for this course we will use **Github**, basing my decision in the fact that all the code should be available for the students taking the course. When you create your account on Github, the next step is to **Create a new repository**; you can see the image:
+
+![New Repository](readmeImages/CreateRepoGithub.png)
+
+
+After that, you will simple put any name you like on your repository. For this moment **do not select** initialize with readme or the license. After you are done instructions should appear on the webpage.
+
+![Github Instructions](readmeImages/GithubInstructions.png)
+
+Now that you have your instructions and the url of your project ready, we can use the `Terminal` to go to the project and open it 
+
+```bash
+$ cd path/To/The/Folder/You/Want
+$ git add .
+$ git commit -m "First commit or any message you like"
+$ git remote add origin https://github.com/**yourUserName**/**theNameOfYour**.git
+$ git push -u origin master
+``` -->
 
