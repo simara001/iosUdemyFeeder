@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FeederTableViewController : UITableViewController
+@interface FeederTableViewController : UITableViewController <NSURLConnectionDataDelegate, NSURLConnectionDelegate>
 
 @property (strong, nonatomic) IBOutlet UITableView *feeder;
 @property (strong, nonatomic) NSMutableArray *arrayFeeder;

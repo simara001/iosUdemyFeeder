@@ -21,6 +21,7 @@
 		7FD7ED6B18E7AC9400ABD8FA /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FD7ED6A18E7AC9400ABD8FA /* Security.framework */; };
 		7FD7ED7418E7CCE400ABD8FA /* JNKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD7ED7318E7CCE400ABD8FA /* JNKeychain.m */; };
 		7FD7ED7A18E8F5DC00ABD8FA /* FeederTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD7ED7918E8F5DC00ABD8FA /* FeederTableViewController.m */; };
+		7FD7ED7D18E9170800ABD8FA /* LeaguesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD7ED7C18E9170800ABD8FA /* LeaguesTableViewController.m */; };
 		7FDB572118E6480E00C8ECD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FDB572018E6480E00C8ECD8 /* Foundation.framework */; };
 		7FDB572318E6480E00C8ECD8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FDB572218E6480E00C8ECD8 /* CoreGraphics.framework */; };
 		7FDB572518E6480E00C8ECD8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FDB572418E6480E00C8ECD8 /* UIKit.framework */; };
@@ -78,6 +79,8 @@
 		7FD7ED7318E7CCE400ABD8FA /* JNKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNKeychain.m; sourceTree = "<group>"; };
 		7FD7ED7818E8F5DC00ABD8FA /* FeederTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeederTableViewController.h; sourceTree = "<group>"; };
 		7FD7ED7918E8F5DC00ABD8FA /* FeederTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeederTableViewController.m; sourceTree = "<group>"; };
+		7FD7ED7B18E9170800ABD8FA /* LeaguesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeaguesTableViewController.h; sourceTree = "<group>"; };
+		7FD7ED7C18E9170800ABD8FA /* LeaguesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeaguesTableViewController.m; sourceTree = "<group>"; };
 		7FDB571D18E6480E00C8ECD8 /* iosUdemyFeeder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosUdemyFeeder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FDB572018E6480E00C8ECD8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7FDB572218E6480E00C8ECD8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -223,6 +226,8 @@
 				7FDB573618E6480E00C8ECD8 /* MARViewController.m */,
 				7FD7ED7818E8F5DC00ABD8FA /* FeederTableViewController.h */,
 				7FD7ED7918E8F5DC00ABD8FA /* FeederTableViewController.m */,
+				7FD7ED7B18E9170800ABD8FA /* LeaguesTableViewController.h */,
+				7FD7ED7C18E9170800ABD8FA /* LeaguesTableViewController.m */,
 				7FD7ED6718E786B700ABD8FA /* NSObject+PerformDelay.h */,
 				7FD7ED6818E786B700ABD8FA /* NSObject+PerformDelay.m */,
 				7FDB573818E6480E00C8ECD8 /* Images.xcassets */,
@@ -368,6 +373,7 @@
 				7FD7ED5D18E77ECD00ABD8FA /* MRActivityIndicatorView.m in Sources */,
 				7FDB573118E6480E00C8ECD8 /* MARAppDelegate.m in Sources */,
 				7FD7ED6918E786B700ABD8FA /* NSObject+PerformDelay.m in Sources */,
+				7FD7ED7D18E9170800ABD8FA /* LeaguesTableViewController.m in Sources */,
 				7FDB573718E6480E00C8ECD8 /* MARViewController.m in Sources */,
 				7FD7ED7A18E8F5DC00ABD8FA /* FeederTableViewController.m in Sources */,
 				7FD7ED6218E77ECD00ABD8FA /* MRStopButton.m in Sources */,
